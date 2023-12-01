@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-size: 14px;
+    color: #797979;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 300;
+    width:100%;
+    font-family: 'ralewayregular';
+}
+img
+{
+    width: 100%;
+    filter: brightness(0.4);
+    clip-path: polygon(50% 0%,100% 0,100% 84%,52% 99%,0 84%,0 0);
+}
+.logo
+{
+    position:relative;
+    filter: brightness(1.7);
+    bottom:725px;
+    margin-left:250px;
+    width:100px;
+}
+
+header
+{
+    position:relative;
+    width: 100%;
+    bottom: 770px;
+    padding: 10px 100px;
+    justify-content: space-between;
+}
+.navbar
+{
+   margin-left:35%;
+}
+.hom
+{
+    color: rgb(187, 67, 20) !important;
+}
+.navbar a
+{
+    color: rgb(232, 229, 229);
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 50px;
+    font-weight: 500;
+    transition: .2s ease;
+
+}
+.navbar a:hover
+{
+    color:rgb(211, 93, 15) ;
+}
+.home 
+{
+    color: rgb(255, 255, 255);
+    margin-top:-100px;
+    width: 100%;
+}
+.btn-grp a
+{
+    position: relative;
+    bottom:450px;
+    font-size: 60px;
+    margin-left: 550px;
+    width: 500px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 40px;
+    font-size: 15px;
+    background:rgb(228, 54, 14);
+    border: 2px solid rgb(226, 226, 226);
+    transition: .2s ease;
+}
+.btn-grp a:hover:nth-child(1)
+{
+    color:rgb(246, 243, 243) ;
+    background-color:rgb(228, 54, 14) ;
+    box-shadow: 1px 2px 2px 0 gray;
+}
+
+.btn-grp a:nth-child(2)
+{
+    color: rgb(239, 238, 237);
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-grp a:hover:nth-child(2)
+{
+    color: rgb(232, 232, 232);
+    box-shadow: 1px 2px 2px 0 gray;
+    background-color:rgb(220, 58, 22) ;
+}
+.home h1
+{
+    position: relative;
+    bottom:500px;
+    font-size: 60px;
+    margin-left: 500px;
+    text-align: center;
+    width: 500px;
+}
+.home p
+{
+    position: relative;
+    bottom:500px;
+    filter: brightness(0.7);
+    margin-left: 500px;
+    text-align: center;
+    width: 500px;
+}
+.design1
+{
+    margin-left: 100px;
+    width:200px;
+    margin-top: -10px;
+}
+.line1
+{
+    position: relative;
+    left: 510px;
+    filter: brightness(0.7);
+    top: 289px;
+    height:1px;
+    width: 100px;
+    background-color:rgb(236, 236, 236) ;
+    line-height: 2px;
+}
+.circle
+{
+    position: relative;
+    background:rgb(182, 79, 10);
+    top:-500px;
+    left:720px;
+    height:10px;
+    width:10px;
+    border-radius: 50%;
+}
+.lin
+{
+    position: relative;
+    filter: brightness(0.8);
+    left:740px;
+    top:-505px;
+    height: 1px;
+    width: 100px;
+    background: rgb(207, 198, 198);
+    line-height: 2px;
+}
+.single_feature
+{
+    width: 289px;
+    text-align: center;
+    margin-bottom: 150px;
+    padding: 50px;
+}
+.main_feature .single_feature:hover .single_feature_icon{
+    border-color:#e74c3c;
+    transform: rotate(45deg);
+}
+
+.main_feature .single_feature:hover .single_feature_icon i{
+    transform: rotate(-45deg);
+}
+.main_feature .single_feature .single_feature_icon{
+    border:1px solid #ddd;
+    width:70px;
+    height: 70px;
+    line-height: 70px;
+    margin:20px auto;
+    transition: all 0.6s;
+}
+.main_feature .single_feature i{
+    margin-bottom:30px;
+    color:#e74c3c;
+    transition: all 0.6s;
+}
+.main_feature .single_feature h4{
+    transition: all 0.6s;
+}
+
+.separator3 {
+    height: 2px;
+    width: 40px;
+    margin:20px auto;
+    background: #888888;
+}
+
+
+.main_history 
+{
+    position: relative;
+    margin: 100px;
+    bottom: 350px;
+    left: 250px;
+    padding: 400px;
+    font-size: 20px;
+}
+.head_title
+{
+    position: relative;
+    bottom: 100px;
+    padding: 50px;
+    font-size: 25px;
+    left: -50px;    
+}
+.col-sm-6 .single_history_content p
+{
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: -30px;
+    
+}
+.main_feature
+{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+.main
+{
+    margin-right:0px;
+    background: #202020;
+
+}
+
+
+
+
+
+

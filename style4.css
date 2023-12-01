@@ -1,0 +1,130 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    overflow-y: hidden;
+}
+
+.main
+{
+    display: grid;
+    gap: 10px;
+    height: 825px;
+    width: auto;
+    background-color:rgb(230, 226, 226);
+    padding: 25px;
+    grid-template-columns: repeat(18,2fr);
+    grid-template-rows: repeat(6,100px);
+}
+.th
+{
+    background-color: rgb(86, 85, 85) !important;
+    padding: 80px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(207, 204, 200);
+
+}
+.box1
+{
+    background-color:white !important;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 0px 0px rgb(121, 117, 117);
+    grid-row-start: 1;
+    grid-row-end:4;
+}
+.box1 p
+{
+    margin-bottom: 185px;
+}
+.box2 p
+{
+    margin-bottom: 185px;
+}
+.box3 p
+{
+    margin-bottom: 185px;
+}
+.box4 p
+{
+    margin-bottom: 185px;
+}
+.box5 p
+{
+    margin-bottom: 185px;
+}
+.box6 p
+{
+    margin-bottom: 185px;
+}
+.btn a
+{
+    position: relative;
+    top:-210px;
+    font-size: 6px;
+    text-decoration: none;
+    color: rgb(8, 30, 49);
+    padding: 1px 10px;
+    left: 20px;
+    font-size: 15px;
+    border: 2px solid rgb(12, 7, 7);
+}
+p
+{
+    position: relative;
+    top: -25px;
+    padding: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.box2
+{
+    background-color:white !important;
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end:4;
+    box-shadow: 2px 2px 0px 0px rgb(121, 117, 117);
+}
+.box3
+{
+    background-color:white !important;
+    grid-column-start:13 ;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end:4;
+    box-shadow: 2px 2px 0px 0px rgb(121, 117, 117);
+}
+.box4
+{
+    background-color:white !important;
+    grid-row: inherit;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end:7;
+    box-shadow: 2px 2px 0px 0px rgb(121, 117, 117);
+}
+.box5
+{
+    background-color:white !important;
+    grid-row: inherit;
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end:7;
+    box-shadow: 2px 2px 0px 0px rgb(121, 117, 117);
+}
+.box6
+{
+    background-color:white !important;
+    grid-row: inherit;
+    grid-column-start:13 ;
+    grid-column-end: 17;
+    grid-row-start: 4;
+    grid-row-end:7;
+    box-shadow: 2px 2px 0px 0px rgb(121, 117, 117);
+}

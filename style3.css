@@ -1,0 +1,147 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.team{
+    background: url(./teambg.jpg) no-repeat scroll top center;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+    width: 100%;
+}
+.team:before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content:"";
+    background: url(./teambg2.png) no-repeat bottom center;  
+}
+.team .head h2
+{
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    top: 50px;
+}
+.team .head .subtitle
+{
+    position: relative;
+    color: #fff;
+    bottom: -30px;
+    margin-left: 550px;
+
+}
+.mainteam ul li{
+    text-align: center;
+    
+}
+.separator {
+    width: 10px;
+    height: 10px;
+    margin: 20px auto;
+    background: #e74c3c;
+    position: relative;
+    display: inline-block;
+    margin-left:720px;
+    border-radius: 50%;
+    bottom: -50px;
+}
+.separator:after {
+    position: absolute;
+    left:5%;
+    bottom:5px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content:"";
+    display: inline-block;
+    margin-left: 20px;
+}
+.separator:before {
+    position: absolute;
+    right: 5%;
+    bottom:4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content:"";
+    display: inline-block;
+    margin-right:20px;
+}
+.mainteam ul li:nth-child(1){
+    width: 15%;
+    display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    left:1%;
+    top:52%;
+}
+.mainteam ul li:nth-child(2){
+    width: 15%;
+    display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    left:19%;
+    top:44%;
+}
+.mainteam ul li:nth-child(3){
+    width: 15%;
+    display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    left:37%;
+    top:41%;
+}
+.mainteam ul li:nth-child(4){
+    width: 15%;
+    display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    left:55%;
+    top:48%;
+}
+.mainteam ul li:nth-child(5){
+    width: 15%;
+    display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    left:73%;
+    top:44%;
+}
+.mainteam ul li .single img{
+    width:60px;
+    height: 60px;
+    margin:20px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px rgba(231, 76, 60, 0.65);
+}
+
+li:hover .single img{
+    transform: scale(1.08);
+}
+li:hover .single_team_text{
+    opacity: 1;
+}
+li .single_team_text{
+    padding: 10px 0px;
+    width:100%;
+    opacity:0;
+    margin-top: -10px;
+    transition: all 0.6s;
+    text-align: center;
+    display: block;
+    height: 80px;
+}
+li .single_team_text h4{
+    margin-bottom: .0rem;
+    display: inline-block;
+    text-transform:none ;
+    color:#e74c3c;
+}
+li .single_team_text p{
+    color:#fff;
+}
+
